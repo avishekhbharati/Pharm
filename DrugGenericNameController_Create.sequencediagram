@@ -1,0 +1,477 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SequenceDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" dslVersion="1.0.0.0" Id="a5a3aaab-48a5-451b-84ab-f3bdf421d6a7" name="DrugGenericNameController_Create" mode="DotNet" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner">
+  <packagedElements>
+    <packageHasNamedElement>
+      <interaction Id="423a499f-1323-4baa-8065-d82b04f1e7a2" name="DrugGenericNameController_Create" collapseFragmentsFlag="false" isActiveClass="false" isAbstract="false" isLeaf="false" isReentrant="false">
+        <fragments>
+          <behaviorExecutionSpecification Id="1527bd6d-bf6d-43e0-a925-56eed4c147e9" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="85b58576-e4bb-4b2e-bf65-8f89138c5ffd" LastKnownName="this : DrugGenericNameController" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="ac9aacae-a548-4c8c-af83-d66a035b75d2" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="268fff2a-d70f-4ab7-b5e8-8a3ab8699ea4" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="09930431-a307-47b0-9d83-4a75bc6ad314" LastKnownName="MessageOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="42c32f95-4b52-46a6-923a-9bbfcb7a1f39" LastKnownName="OperandOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="cb3355ff-73d2-4bf4-8552-9bb3a7a91a93" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="47dd12c5-3121-4ab5-a969-54acedd10ca3" LastKnownName="MessageOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="18a52c42-5dc0-4c49-b678-9583a29d0032" LastKnownName="OperandOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="c814e0d7-5447-4f30-9ba6-c6f183bfeef6" LastKnownName="MessageOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="8d81ebc6-ee26-4bcf-8f29-3e46eb1d7dee" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="58b9629e-fa2a-4d02-9192-9f103cf5d12c" LastKnownName="OperandOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="b147c4db-9a29-4a11-8ebb-01aeb4e0f4c4" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="886a49f8-e8b6-409a-8777-97ee684ac21d" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="4bd399b7-3968-41d8-974b-740ff7d4fb09" LastKnownName="MessageOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="8d52ef99-bf95-4a1d-9e1f-3b825a5de63f" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="c9ca1176-06c8-40f6-b50a-93840a678a29" LastKnownName="OperandOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="268fff2a-d70f-4ab7-b5e8-8a3ab8699ea4" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="9ca67db6-4bc4-46d1-879a-da48b455c08e" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="85b58576-e4bb-4b2e-bf65-8f89138c5ffd" LastKnownName="this : DrugGenericNameController" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <lostFoundTarget Id="af0dd81f-4af5-4dc6-8874-658cf34559e5" name="LostFoundTarget" />
+          <messageOccurrenceSpecification Id="09930431-a307-47b0-9d83-4a75bc6ad314" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="85b58576-e4bb-4b2e-bf65-8f89138c5ffd" LastKnownName="this : DrugGenericNameController" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <combinedFragment Id="0b35ca2c-a499-4ad2-b8df-e5acf73ad4bf" name="CombinedFragment1" interactionOperator="Opt" customInteractionOperator="If">
+            <coveredLifelines>
+              <lifelineMoniker Id="85b58576-e4bb-4b2e-bf65-8f89138c5ffd" LastKnownName="this : DrugGenericNameController" />
+              <lifelineMoniker Id="30fdfdc8-65da-4453-9b8f-89d132e73801" LastKnownName="source : DbSet&lt;DrugGenericName&gt;" />
+            </coveredLifelines>
+            <operands>
+              <interactionOperand Id="00f68f8d-164b-4fc2-90b6-0ddae6a5273a" name="InteractionOperand1">
+                <coveredLifelines>
+                  <lifelineMoniker Id="85b58576-e4bb-4b2e-bf65-8f89138c5ffd" LastKnownName="this : DrugGenericNameController" />
+                  <lifelineMoniker Id="30fdfdc8-65da-4453-9b8f-89d132e73801" LastKnownName="source : DbSet&lt;DrugGenericName&gt;" />
+                </coveredLifelines>
+                <fragments>
+                  <combinedFragment Id="5d7cf5ad-c089-4703-bc09-5f9f806dd0ac" name="CombinedFragment1" interactionOperator="Alt" customInteractionOperator="Deferred Call">
+                    <coveredLifelines>
+                      <lifelineMoniker Id="30fdfdc8-65da-4453-9b8f-89d132e73801" LastKnownName="source : DbSet&lt;DrugGenericName&gt;" />
+                    </coveredLifelines>
+                    <operands>
+                      <interactionOperand Id="1ba3d16b-742d-45eb-8366-f9a0c7c8156e" name="InteractionOperand1">
+                        <coveredLifelines>
+                          <lifelineMoniker Id="30fdfdc8-65da-4453-9b8f-89d132e73801" LastKnownName="source : DbSet&lt;DrugGenericName&gt;" />
+                        </coveredLifelines>
+                        <guard>
+                          <interactionConstraint Id="9c0ea229-1680-495d-8838-d15ad02147ce" guardText="Where (d.GenericName == drugGenericName.GenericName)" />
+                        </guard>
+                        <operandOccurrenceSpecifications>
+                          <operandOccurrenceSpecificationMoniker Id="177aee98-8f7b-4f98-bb40-83f662727076" LastKnownName="OperandOccurrenceSpecification" />
+                          <operandOccurrenceSpecificationMoniker Id="13cdc7ff-ac2a-4b1b-b14e-901960b70219" LastKnownName="OperandOccurrenceSpecification" />
+                        </operandOccurrenceSpecifications>
+                      </interactionOperand>
+                      <interactionOperand Id="87284510-2bc9-4ffa-b73d-7f2cc682efc4" name="InteractionOperand2">
+                        <coveredLifelines>
+                          <lifelineMoniker Id="30fdfdc8-65da-4453-9b8f-89d132e73801" LastKnownName="source : DbSet&lt;DrugGenericName&gt;" />
+                        </coveredLifelines>
+                        <guard>
+                          <interactionConstraint Id="253fc707-faf3-42b8-b815-5869b439e759" guardText="ToList" />
+                        </guard>
+                        <operandOccurrenceSpecifications>
+                          <operandOccurrenceSpecificationMoniker Id="07941ad3-1363-4376-bc1b-ceceb1a90062" LastKnownName="OperandOccurrenceSpecification" />
+                          <operandOccurrenceSpecificationMoniker Id="a1273966-ce40-4515-a8c3-379c2d86d6bd" LastKnownName="OperandOccurrenceSpecification" />
+                        </operandOccurrenceSpecifications>
+                      </interactionOperand>
+                    </operands>
+                  </combinedFragment>
+                  <combinedFragment Id="84797756-4eeb-4d15-ab7e-2e84aaa0dc69" name="CombinedFragment2" interactionOperator="Alt" customInteractionOperator="If">
+                    <coveredLifelines>
+                      <lifelineMoniker Id="85b58576-e4bb-4b2e-bf65-8f89138c5ffd" LastKnownName="this : DrugGenericNameController" />
+                      <lifelineMoniker Id="30fdfdc8-65da-4453-9b8f-89d132e73801" LastKnownName="source : DbSet&lt;DrugGenericName&gt;" />
+                    </coveredLifelines>
+                    <operands>
+                      <interactionOperand Id="a4dea7f1-d842-4992-aed2-198b24e0b21d" name="InteractionOperand1">
+                        <coveredLifelines>
+                          <lifelineMoniker Id="85b58576-e4bb-4b2e-bf65-8f89138c5ffd" LastKnownName="this : DrugGenericNameController" />
+                          <lifelineMoniker Id="30fdfdc8-65da-4453-9b8f-89d132e73801" LastKnownName="source : DbSet&lt;DrugGenericName&gt;" />
+                        </coveredLifelines>
+                        <guard>
+                          <interactionConstraint Id="dbeb994b-f955-4516-9295-7c54b34cd89c" guardText="if (count &gt; 0)" />
+                        </guard>
+                        <operandOccurrenceSpecifications>
+                          <operandOccurrenceSpecificationMoniker Id="18a52c42-5dc0-4c49-b678-9583a29d0032" LastKnownName="OperandOccurrenceSpecification" />
+                          <operandOccurrenceSpecificationMoniker Id="8d81ebc6-ee26-4bcf-8f29-3e46eb1d7dee" LastKnownName="OperandOccurrenceSpecification" />
+                          <operandOccurrenceSpecificationMoniker Id="3cdfd8b4-7e15-44d4-a3c9-af11e184303a" LastKnownName="OperandOccurrenceSpecification" />
+                          <operandOccurrenceSpecificationMoniker Id="5304cf38-7bab-4074-a598-cac8b0dda1e5" LastKnownName="OperandOccurrenceSpecification" />
+                        </operandOccurrenceSpecifications>
+                      </interactionOperand>
+                      <interactionOperand Id="6a79e8cd-ca69-4726-a244-7ca6a8bbd87c" name="InteractionOperand2">
+                        <coveredLifelines>
+                          <lifelineMoniker Id="85b58576-e4bb-4b2e-bf65-8f89138c5ffd" LastKnownName="this : DrugGenericNameController" />
+                          <lifelineMoniker Id="30fdfdc8-65da-4453-9b8f-89d132e73801" LastKnownName="source : DbSet&lt;DrugGenericName&gt;" />
+                        </coveredLifelines>
+                        <guard>
+                          <interactionConstraint Id="f62a0f50-926f-4ac5-98d8-029309e97531" guardText="else" />
+                        </guard>
+                        <operandOccurrenceSpecifications>
+                          <operandOccurrenceSpecificationMoniker Id="58b9629e-fa2a-4d02-9192-9f103cf5d12c" LastKnownName="OperandOccurrenceSpecification" />
+                          <operandOccurrenceSpecificationMoniker Id="8d52ef99-bf95-4a1d-9e1f-3b825a5de63f" LastKnownName="OperandOccurrenceSpecification" />
+                          <operandOccurrenceSpecificationMoniker Id="9ab731ff-f4ad-461f-af99-e2dc01251ef3" LastKnownName="OperandOccurrenceSpecification" />
+                          <operandOccurrenceSpecificationMoniker Id="8af5823c-c0b7-445d-97b6-39a4668e028c" LastKnownName="OperandOccurrenceSpecification" />
+                        </operandOccurrenceSpecifications>
+                      </interactionOperand>
+                    </operands>
+                  </combinedFragment>
+                </fragments>
+                <guard>
+                  <interactionConstraint Id="b395fd4b-640a-478a-acb4-43e5e5d6ea60" guardText="if (ModelState.IsValid)" />
+                </guard>
+                <operandOccurrenceSpecifications>
+                  <operandOccurrenceSpecificationMoniker Id="42c32f95-4b52-46a6-923a-9bbfcb7a1f39" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="c9ca1176-06c8-40f6-b50a-93840a678a29" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="e0a04649-076d-499e-94bc-e97d4460dbaf" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="558a4853-af74-4c7d-a30f-acff0f91ccba" LastKnownName="OperandOccurrenceSpecification" />
+                </operandOccurrenceSpecifications>
+              </interactionOperand>
+            </operands>
+          </combinedFragment>
+          <operandOccurrenceSpecification Id="42c32f95-4b52-46a6-923a-9bbfcb7a1f39" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="85b58576-e4bb-4b2e-bf65-8f89138c5ffd" LastKnownName="this : DrugGenericNameController" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="e0a04649-076d-499e-94bc-e97d4460dbaf" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="30fdfdc8-65da-4453-9b8f-89d132e73801" LastKnownName="source : DbSet&lt;DrugGenericName&gt;" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="762a0c87-114a-46a6-88e8-9846324b3f40" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="30fdfdc8-65da-4453-9b8f-89d132e73801" LastKnownName="source : DbSet&lt;DrugGenericName&gt;" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="2e4a8529-8259-4efc-96b2-e7afbaab0341" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="824e7c91-43e9-4d52-86ac-6655dcc41a0d" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="d444f02f-1ed3-4a94-b781-9f1d86cd5f31" LastKnownName="MessageOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="177aee98-8f7b-4f98-bb40-83f662727076" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="13cdc7ff-ac2a-4b1b-b14e-901960b70219" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="07941ad3-1363-4376-bc1b-ceceb1a90062" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="a1273966-ce40-4515-a8c3-379c2d86d6bd" LastKnownName="OperandOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="0b225a19-bd7d-4fb5-909a-60868fc59138" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="824e7c91-43e9-4d52-86ac-6655dcc41a0d" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="ee3f3769-be0e-434d-a2d0-eeb52f5580ad" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="30fdfdc8-65da-4453-9b8f-89d132e73801" LastKnownName="source : DbSet&lt;DrugGenericName&gt;" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="cb3355ff-73d2-4bf4-8552-9bb3a7a91a93" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="85b58576-e4bb-4b2e-bf65-8f89138c5ffd" LastKnownName="this : DrugGenericNameController" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="d444f02f-1ed3-4a94-b781-9f1d86cd5f31" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="30fdfdc8-65da-4453-9b8f-89d132e73801" LastKnownName="source : DbSet&lt;DrugGenericName&gt;" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="177aee98-8f7b-4f98-bb40-83f662727076" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="30fdfdc8-65da-4453-9b8f-89d132e73801" LastKnownName="source : DbSet&lt;DrugGenericName&gt;" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="13cdc7ff-ac2a-4b1b-b14e-901960b70219" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="30fdfdc8-65da-4453-9b8f-89d132e73801" LastKnownName="source : DbSet&lt;DrugGenericName&gt;" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="07941ad3-1363-4376-bc1b-ceceb1a90062" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="30fdfdc8-65da-4453-9b8f-89d132e73801" LastKnownName="source : DbSet&lt;DrugGenericName&gt;" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="a1273966-ce40-4515-a8c3-379c2d86d6bd" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="30fdfdc8-65da-4453-9b8f-89d132e73801" LastKnownName="source : DbSet&lt;DrugGenericName&gt;" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="0b225a19-bd7d-4fb5-909a-60868fc59138" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="30fdfdc8-65da-4453-9b8f-89d132e73801" LastKnownName="source : DbSet&lt;DrugGenericName&gt;" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="47dd12c5-3121-4ab5-a969-54acedd10ca3" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="85b58576-e4bb-4b2e-bf65-8f89138c5ffd" LastKnownName="this : DrugGenericNameController" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="2e4a8529-8259-4efc-96b2-e7afbaab0341" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="2663a506-e39f-47f9-8c45-f4de4e45ff71" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="30fdfdc8-65da-4453-9b8f-89d132e73801" LastKnownName="source : DbSet&lt;DrugGenericName&gt;" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="3cdfd8b4-7e15-44d4-a3c9-af11e184303a" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="30fdfdc8-65da-4453-9b8f-89d132e73801" LastKnownName="source : DbSet&lt;DrugGenericName&gt;" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="18a52c42-5dc0-4c49-b678-9583a29d0032" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="85b58576-e4bb-4b2e-bf65-8f89138c5ffd" LastKnownName="this : DrugGenericNameController" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <lostFoundTarget Id="b91eee38-82a5-46d7-a79b-a9b7670a49ed" name="LostFoundTarget" />
+          <messageOccurrenceSpecification Id="c814e0d7-5447-4f30-9ba6-c6f183bfeef6" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="85b58576-e4bb-4b2e-bf65-8f89138c5ffd" LastKnownName="this : DrugGenericNameController" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="8d81ebc6-ee26-4bcf-8f29-3e46eb1d7dee" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="85b58576-e4bb-4b2e-bf65-8f89138c5ffd" LastKnownName="this : DrugGenericNameController" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="5304cf38-7bab-4074-a598-cac8b0dda1e5" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="30fdfdc8-65da-4453-9b8f-89d132e73801" LastKnownName="source : DbSet&lt;DrugGenericName&gt;" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="58b9629e-fa2a-4d02-9192-9f103cf5d12c" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="85b58576-e4bb-4b2e-bf65-8f89138c5ffd" LastKnownName="this : DrugGenericNameController" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="9ab731ff-f4ad-461f-af99-e2dc01251ef3" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="30fdfdc8-65da-4453-9b8f-89d132e73801" LastKnownName="source : DbSet&lt;DrugGenericName&gt;" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="d57fd815-a0cb-4130-a68b-451cb2b64f2e" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="30fdfdc8-65da-4453-9b8f-89d132e73801" LastKnownName="source : DbSet&lt;DrugGenericName&gt;" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="a7072d4e-4674-49c8-801e-f397ffd9af61" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="8324320e-3654-459e-98a2-4c24c4f6c363" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="e7009659-ed80-482f-8ca2-a9f25f4cfbfd" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="93b64362-3ebf-44cb-8267-6bbc47b3fedd" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="8324320e-3654-459e-98a2-4c24c4f6c363" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="dd765746-2597-4778-aef9-6f72380ba3d1" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="30fdfdc8-65da-4453-9b8f-89d132e73801" LastKnownName="source : DbSet&lt;DrugGenericName&gt;" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="b147c4db-9a29-4a11-8ebb-01aeb4e0f4c4" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="85b58576-e4bb-4b2e-bf65-8f89138c5ffd" LastKnownName="this : DrugGenericNameController" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="e7009659-ed80-482f-8ca2-a9f25f4cfbfd" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="30fdfdc8-65da-4453-9b8f-89d132e73801" LastKnownName="source : DbSet&lt;DrugGenericName&gt;" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="93b64362-3ebf-44cb-8267-6bbc47b3fedd" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="30fdfdc8-65da-4453-9b8f-89d132e73801" LastKnownName="source : DbSet&lt;DrugGenericName&gt;" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="886a49f8-e8b6-409a-8777-97ee684ac21d" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="85b58576-e4bb-4b2e-bf65-8f89138c5ffd" LastKnownName="this : DrugGenericNameController" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="a7072d4e-4674-49c8-801e-f397ffd9af61" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="bd8f6a4c-af57-4c86-a705-1e1148ff5dfa" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="30fdfdc8-65da-4453-9b8f-89d132e73801" LastKnownName="source : DbSet&lt;DrugGenericName&gt;" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="4bd399b7-3968-41d8-974b-740ff7d4fb09" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="85b58576-e4bb-4b2e-bf65-8f89138c5ffd" LastKnownName="this : DrugGenericNameController" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <lostFoundTarget Id="8bad2e7a-749f-4dd4-a11e-25c1f427b878" name="LostFoundTarget" />
+          <operandOccurrenceSpecification Id="8d52ef99-bf95-4a1d-9e1f-3b825a5de63f" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="85b58576-e4bb-4b2e-bf65-8f89138c5ffd" LastKnownName="this : DrugGenericNameController" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="8af5823c-c0b7-445d-97b6-39a4668e028c" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="30fdfdc8-65da-4453-9b8f-89d132e73801" LastKnownName="source : DbSet&lt;DrugGenericName&gt;" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="c9ca1176-06c8-40f6-b50a-93840a678a29" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="85b58576-e4bb-4b2e-bf65-8f89138c5ffd" LastKnownName="this : DrugGenericNameController" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="558a4853-af74-4c7d-a30f-acff0f91ccba" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="30fdfdc8-65da-4453-9b8f-89d132e73801" LastKnownName="source : DbSet&lt;DrugGenericName&gt;" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="ac9aacae-a548-4c8c-af83-d66a035b75d2" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="4049851e-f653-4e1b-b532-59fd5ac9c42a" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="85b58576-e4bb-4b2e-bf65-8f89138c5ffd" LastKnownName="this : DrugGenericNameController" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline Id="85b58576-e4bb-4b2e-bf65-8f89138c5ffd" name="this : DrugGenericNameController" isActor="false" lifelineDisplayName="this : DrugGenericNameController" referencedInstance="(Assembly=$(b72ef8f9-4276-4a64-b423-4a83638e9051.OutputPathUri) Namespace=FYPPharmAssistant.Controllers Type=DrugGenericNameController ObjectInstance=&quot;Object instance 2&quot;)" referencedType="FYPPharmAssistant‎.Controllers‎.DrugGenericNameController">
+            <referencesInternal>
+              <reference Id="91b65d28-40cc-41bb-96a4-389673826a54" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=FYPPharmAssistant.Controllers)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(b72ef8f9-4276-4a64-b423-4a83638e9051.OutputPathUri)&amp;quot; Namespace=FYPPharmAssistant.Controllers Type=DrugGenericNameController)&quot;)" tag="DGQL" />
+              <reference Id="7cb496fe-d267-460f-8aed-fdd51bae25e4" handle="(Assembly=&quot;$(b72ef8f9-4276-4a64-b423-4a83638e9051.OutputPathUri)&quot; Namespace=FYPPharmAssistant.Controllers Type=DrugGenericNameController)" tag="DGML" />
+            </referencesInternal>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker Id="268fff2a-d70f-4ab7-b5e8-8a3ab8699ea4" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="ac9aacae-a548-4c8c-af83-d66a035b75d2" LastKnownName="ExecutionOccurrenceSpecification" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline Id="30fdfdc8-65da-4453-9b8f-89d132e73801" name="source : DbSet&lt;DrugGenericName&gt;" isActor="false" lifelineDisplayName="source : DbSet&lt;DrugGenericName&gt;" referencedInstance="(Assembly=$(b72ef8f9-4276-4a64-b423-4a83638e9051.OutputPathUri) Namespace=FYPPharmAssistant.Controllers Type=DrugGenericNameController Member=(Name=Create OverloadingParameters=[(Assembly=$(b72ef8f9-4276-4a64-b423-4a83638e9051.OutputPathUri) Namespace=FYPPharmAssistant.Models.InventoryModel Type=DrugGenericName)]) Statement=[1,1,2,1,1,1,2,1,1,1,1] ObjectInstance=&quot;Object instance 6&quot;)" referencedType="System‎.Data‎.Entity‎.DbSet‎&lt;DrugGenericName‎&gt;">
+            <referencesInternal>
+              <reference Id="f55542a0-e8aa-4a4b-a9a3-82093d8fb77e" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=System.Data.Entity)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(VsSolutionUri)/packages/EntityFramework.6.1.3/lib/net45/EntityFramework.dll&amp;quot; Namespace=System.Data.Entity Type=(Name=DbSet GenericParameterCount=1))&quot;)" tag="DGQL" />
+              <reference Id="d84c7951-a63b-45ca-bc4d-71f9ccab2f78" handle="(Assembly=&quot;$(VsSolutionUri)/packages/EntityFramework.6.1.3/lib/net45/EntityFramework.dll&quot; Namespace=System.Data.Entity Type=(Name=DbSet GenericParameterCount=1))" tag="DGML" />
+            </referencesInternal>
+            <topLevelOccurrences>
+              <operandOccurrenceSpecificationMoniker Id="e0a04649-076d-499e-94bc-e97d4460dbaf" LastKnownName="OperandOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="824e7c91-43e9-4d52-86ac-6655dcc41a0d" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="2e4a8529-8259-4efc-96b2-e7afbaab0341" LastKnownName="ExecutionOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="3cdfd8b4-7e15-44d4-a3c9-af11e184303a" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="5304cf38-7bab-4074-a598-cac8b0dda1e5" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="9ab731ff-f4ad-461f-af99-e2dc01251ef3" LastKnownName="OperandOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="8324320e-3654-459e-98a2-4c24c4f6c363" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="a7072d4e-4674-49c8-801e-f397ffd9af61" LastKnownName="ExecutionOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="8af5823c-c0b7-445d-97b6-39a4668e028c" LastKnownName="OperandOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="558a4853-af74-4c7d-a30f-acff0f91ccba" LastKnownName="OperandOccurrenceSpecification" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message Id="15ea5763-3f74-48dd-b7f9-a92d47e50c53" name="Create" messageKind="Found" messageSort="AsynchCall" createSelfMessage="false">
+            <referencesInternal>
+              <reference Id="2e3bc8c9-21ac-49ad-80bd-39428ca00f1c" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=FYPPharmAssistant.Controllers)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(b72ef8f9-4276-4a64-b423-4a83638e9051.OutputPathUri)&amp;quot; Namespace=FYPPharmAssistant.Controllers Type=DrugGenericNameController)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(b72ef8f9-4276-4a64-b423-4a83638e9051.OutputPathUri)&amp;quot; Namespace=FYPPharmAssistant.Controllers Type=DrugGenericNameController Member=(Name=Create OverloadingParameters=[(Assembly=&amp;quot;$(b72ef8f9-4276-4a64-b423-4a83638e9051.OutputPathUri)&amp;quot; Namespace=FYPPharmAssistant.Models.InventoryModel Type=DrugGenericName)]))&quot;)" tag="DGQL" />
+              <reference Id="3c871108-fdf6-4e48-a9c7-ed73317c96b4" handle="(Assembly=&quot;$(b72ef8f9-4276-4a64-b423-4a83638e9051.OutputPathUri)&quot; Namespace=FYPPharmAssistant.Controllers Type=DrugGenericNameController Member=(Name=Create OverloadingParameters=[(Assembly=&quot;$(b72ef8f9-4276-4a64-b423-4a83638e9051.OutputPathUri)&quot; Namespace=FYPPharmAssistant.Models.InventoryModel Type=DrugGenericName)]))" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <lostFoundTargetMoniker Id="af0dd81f-4af5-4dc6-8874-658cf34559e5" LastKnownName="LostFoundTarget" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="09930431-a307-47b0-9d83-4a75bc6ad314" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="53936f3a-e0fe-4c9e-b6e4-63c243563887" name="LINQ" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="cb3355ff-73d2-4bf4-8552-9bb3a7a91a93" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="d444f02f-1ed3-4a94-b781-9f1d86cd5f31" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="a0e85463-1110-410d-b58e-57b2b7a4cb70" name="&lt;&lt;return&gt;&gt;" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="0b225a19-bd7d-4fb5-909a-60868fc59138" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="47dd12c5-3121-4ab5-a969-54acedd10ca3" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="c87d4a06-fc90-4c86-b482-6621acb1cd2c" name="Return" messageKind="Lost" messageSort="AsynchCall" createSelfMessage="false" signatureText="return View(drugGenericName)">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="c814e0d7-5447-4f30-9ba6-c6f183bfeef6" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <lostFoundTargetMoniker Id="b91eee38-82a5-46d7-a79b-a9b7670a49ed" LastKnownName="LostFoundTarget" />
+            </receiveEvent>
+          </message>
+          <message Id="b6800db9-7fd8-4347-a03a-3757d8adfde3" name="Add" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false" signatureText="db.DrugGenericNames.Add(drugGenericName)">
+            <referencesInternal>
+              <reference Id="ab2a09ee-9f1d-484f-8f81-db353b9741ad" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=System.Data.Entity)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(VsSolutionUri)/packages/EntityFramework.6.1.3/lib/net45/EntityFramework.dll&amp;quot; Namespace=System.Data.Entity Type=(Name=DbSet GenericParameterCount=1))&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(VsSolutionUri)/packages/EntityFramework.6.1.3/lib/net45/EntityFramework.dll&amp;quot; Namespace=System.Data.Entity Type=(Name=DbSet GenericParameterCount=1) Member=(Name=Add OverloadingParameters=[(Assembly=&amp;quot;$(VsSolutionUri)/packages/EntityFramework.6.1.3/lib/net45/EntityFramework.dll&amp;quot; Namespace=System.Data.Entity Type=(Name=DbSet GenericParameterCount=1) ParameterIdentifier=0)]))&quot;)" tag="DGQL" />
+              <reference Id="4d74deb4-0c62-4c64-a394-9907be83a31b" handle="(Assembly=&quot;$(VsSolutionUri)/packages/EntityFramework.6.1.3/lib/net45/EntityFramework.dll&quot; Namespace=System.Data.Entity Type=(Name=DbSet GenericParameterCount=1) Member=(Name=Add OverloadingParameters=[(Assembly=&quot;$(VsSolutionUri)/packages/EntityFramework.6.1.3/lib/net45/EntityFramework.dll&quot; Namespace=System.Data.Entity Type=(Name=DbSet GenericParameterCount=1) ParameterIdentifier=0)]))" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="b147c4db-9a29-4a11-8ebb-01aeb4e0f4c4" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="e7009659-ed80-482f-8ca2-a9f25f4cfbfd" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="734ce358-41e8-47e9-ab84-530e1a7c04f8" name="&lt;&lt;return&gt;&gt;" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="93b64362-3ebf-44cb-8267-6bbc47b3fedd" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="886a49f8-e8b6-409a-8777-97ee684ac21d" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="8eea939f-7b59-4065-9914-727f7ce777ab" name="Return" messageKind="Lost" messageSort="AsynchCall" createSelfMessage="false" signatureText="return RedirectToAction(&quot;Index&quot;)">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="4bd399b7-3968-41d8-974b-740ff7d4fb09" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <lostFoundTargetMoniker Id="8bad2e7a-749f-4dd4-a11e-25c1f427b878" LastKnownName="LostFoundTarget" />
+            </receiveEvent>
+          </message>
+        </messages>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="9ca67db6-4bc4-46d1-879a-da48b455c08e" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="4049851e-f653-4e1b-b532-59fd5ac9c42a" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="ee3f3769-be0e-434d-a2d0-eeb52f5580ad" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="2663a506-e39f-47f9-8c45-f4de4e45ff71" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="dd765746-2597-4778-aef9-6f72380ba3d1" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="bd8f6a4c-af57-4c86-a705-1e1148ff5dfa" name="ExecutionEvent" />
+    </packageHasNamedElement>
+  </packagedElements>
+</SequenceDesignerModel>
